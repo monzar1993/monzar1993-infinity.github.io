@@ -1,0 +1,183 @@
+#header {
+  @include header-wh-pr-oh;
+  background: #7a7a7a;
+  text-align: center;
+
+  p.first-of-block {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 113px;
+    margin-bottom: 38px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    user-select: none;
+  }
+
+  h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 56px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 36px;
+    user-select: none;
+  }
+
+  p.second-of-block {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 70px;
+    user-select: none;
+  }
+
+  img.play-icon {
+    margin-bottom: 89px;
+    cursor: pointer;
+  }
+
+  form {
+    margin-bottom: 49px;
+
+    input {
+      width: 182px;
+      height: 48px;
+      border: 2px solid #e3e3e3;
+      margin: 0 -2px;
+      padding-left: 36px;
+      color: #929292;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+
+      &::placeholder {
+        color: #675e5e;
+      }
+
+      &:first-child {
+        border-right: none;
+      }
+    }
+
+    button {
+      width: 160px;
+      height: 52px;
+      background: #1abc9c;
+      color: #fff;
+      border: none;
+      margin: 0 -2px;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      vertical-align: middle;
+      cursor: pointer;
+      transition: 2s;
+
+      &:hover {
+        background: #000;
+      }
+    }
+  }
+  .header-bot-part {
+    margin-bottom: 95px;
+
+    span {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      color: #fff;
+      user-select: none;
+      transition: 1s;
+    }
+
+    span.green-text {
+      color: #19bc9b;
+      cursor: pointer;
+
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  #header {
+
+  h2 {
+    font-size: 45px;
+  }
+
+  form {
+    width: 365px;
+    margin: 0 auto;
+
+    input {
+      margin-bottom: 20px;
+
+      &:first-child {
+      border-right:initial;
+
+      }
+    }
+
+    button {
+      margin-bottom: 20px;
+    }
+  }
+  }
+
+}
+
+@media (min-width: 414px) and (max-width: 479px) {
+  #header {
+    form {
+      width: 76%;
+      margin: 0 auto;
+
+      input {
+        margin-bottom: 20px;
+
+        &:first-child {
+        border-right:initial;
+
+        }
+      }
+
+      button {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 413px) {
+
+  #header {
+    form {
+      width: 76%;
+      margin: 0 auto;
+
+      input {
+        margin-bottom: 20px;
+
+        &:first-child {
+        border-right:initial;
+
+        }
+      }
+
+      button {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1px ) and (max-width: 319px) {
+  #header {
+    display: none;
+  }
+}

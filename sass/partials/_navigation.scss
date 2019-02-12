@@ -1,0 +1,187 @@
+#navigation {
+  display: flex;
+  position: relative;
+  overflow: visible;
+  background: #fff;
+
+
+  .responvise-logo-img {
+    margin-left: 0;
+    z-index: 10;
+    cursor: pointer;
+    display: none;
+
+    ul {
+      display: block;
+      position: absolute;
+      z-index: 2;
+      margin-top: 15px;
+      margin-left: -25px;
+
+      li {
+        padding: 10px 15px;
+        transition: 1s;
+
+        a {
+          padding: 10px 15px!important;
+          color: #000;
+          padding: 23px 8px;
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 15px;
+          font-weight: 400;
+          cursor: pointer;
+          transition: 1s;
+
+        }
+      }
+    }
+  }
+
+  ul.nav-menu {
+    display: flex;
+    align-items: center;
+    padding-left: 230px;
+    overflow: hidden;
+
+    li {
+
+      a {
+        color: #a69999;
+        padding: 25px 8px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        cursor: pointer;
+        transition: 1s;
+
+        &:hover {
+          background: #000;
+          color: #fff;
+        }
+      }
+
+      &.logo-image {
+        padding: 18px 13px 14px 0px;
+
+        img {
+          cursor: pointer;
+        }
+
+        &:hover {
+          background: #000;
+          color: #fff;
+          transition: 1s;
+        }
+      }
+
+    }
+  }
+
+  .social-media-nav {
+    margin-left: 30%;
+    border-left: 1px solid #f3f3f3;
+    border-right: 1px solid #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 138px;
+    padding: 20px 15px;
+
+    &:hover {
+      background: #fff;
+    }
+
+    img {
+      cursor: pointer;
+
+      &:hover {
+        filter: contrast(3);
+      }
+    }
+
+    ul.toggle-menu-social-media-links {
+      display: none;
+      position: absolute;
+      z-index: 2;
+      margin-top: 25px;
+
+      li {
+        padding: 10px 5px;
+
+        img {
+          cursor: pointer;
+
+          &:hover {
+            filter: contrast(3);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1650px) {}
+@media (min-width: 1360px) and (max-width: 1439px) {
+
+  #navigation .social-media-nav {
+    margin-left: 15%;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1359px) {
+
+  #navigation .social-media-nav {
+    margin-left: 15%;
+  }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 1279px) {
+  #navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 5;
+    border-bottom: 1px solid #f3f3f3;
+    box-shadow: 0 0 20px 0px;
+
+    .responvise-logo-img {
+      display: block;
+      padding: 20px 56px 20px 20px;
+      border-right: 1px solid #f3f3f3;
+
+      img {
+        padding-left: 9px;
+      }
+
+      ul {
+        background: #fff;
+        border-top: 1px solid #f3f3f3;
+        border-bottom: 1px solid #f3f3f3;
+        border-right: 1px solid #f3f3f3;
+        margin-top: 20px;
+        display: none;
+
+        li:hover {
+          background: #000;
+        }
+
+        li:hover a {
+          color: #fff;
+        }
+      }
+    }
+
+    .social-media-nav {
+      margin-left: 0;
+      background: #fff;
+      z-index: 5;
+    }
+
+    ul.nav-menu {
+      display: none!important;
+    }
+  }
+}

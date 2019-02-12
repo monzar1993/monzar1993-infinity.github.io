@@ -1,0 +1,1925 @@
+#main {
+  @include header-wh-pr-oh;
+  background: #fff;
+  box-shadow: inset 0px 3px 20px 0px #dddddd;
+
+  .what-we-do {
+    @include header-wh-pr-oh;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+
+    .smile-icon {
+        filter: invert(100%);
+        margin-top: 107px;
+        width: 65px;
+        height: 65px;
+    }
+
+    p.first-of-block {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: #a5a5a5;
+      margin-top: 43px;
+      margin-bottom: 38px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      user-select: none;
+    }
+    h1 {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 61px;
+      font-weight: 300;
+      color: #4c4c4c;
+      margin-bottom: 97px;
+
+      span {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 61px;
+        font-weight: 300;
+        color: #1abc9c;
+      }
+    }
+    .about-works {
+      display: flex;
+      justify-content: space-evenly;
+      margin-bottom: 99px;
+      align-items: baseline;
+      flex-wrap: wrap;
+
+      .simple-block-1 {
+        @include header-wh-pr-oh;
+        text-align: center;
+        width: 350px;
+
+        p {
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 27px;
+          font-weight: 400;
+          color: #4c4c4c;
+          margin-top: 44px;
+          margin-bottom: 32px;
+        }
+
+        span {
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          color: #939598;
+          line-height: 1.7;
+        }
+      }
+    }
+  }
+
+  .our-contents {
+    @include header-wh-pr-oh;
+    text-align: center;
+
+    .contents-icon {
+        margin-top: 105px;
+        width: 55px;
+        height: 63px;
+    }
+
+    p.first-of-block {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: #a5a5a5;
+      margin-top: 43px;
+      margin-bottom: 38px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      user-select: none;
+    }
+    h1 {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 61px;
+      font-weight: 300;
+      color: #4c4c4c;
+      margin-bottom: 100px;
+      user-select: none;
+
+      span {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 61px;
+        font-weight: 300;
+        color: #1abc9c;
+      }
+    }
+    .contents-block {
+      display: flex;
+      margin: 0 auto;
+      width: 1144px;
+      margin-bottom: 50px;
+
+      .contents-slider {
+        width: 700px;
+        height: 500px;
+        background: #f4f4f4;
+        display: block;
+        float: left;
+
+
+        .slick-dots li {
+          margin-bottom: 8px;
+        }
+
+        .slick-dots {
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          top: 37%;
+          left: 93%;
+
+        }
+        .slick-dots li button:before {
+          opacity: 1;
+          color: #1abc9c;
+          font-size: 13px;
+        }
+
+        .slick-dots li.slick-active button:before {
+          opacity: 1;
+          color: #000;
+        }
+
+        .slide-1 {
+          width: 700px;
+          height: 500px;
+          background: #f4f4f4;
+        }
+
+        .slide-2 {
+          width: 700px;
+          height: 500px;
+          background: #b8fcff;
+        }
+
+        .slide-3 {
+          width: 700px;
+          height: 500px;
+          background: #ffff5b;
+        }
+      }
+
+      .contents-table {
+        @include header-wh-pr-oh;
+        margin-left: 27px;
+        width: 363px;
+        float: left;
+
+        .table-like {
+          @include header-wh-pr-oh;
+          border: 1px solid #e1e2e4;
+          width: 360px;
+          text-align: left;
+
+          .cell-1 {
+            @include header-wh-pr-oh;
+            border-bottom: 1px solid #e1e2e4;
+
+            p {
+              font-family: 'Ubuntu', sans-serif;
+              font-weight: 400;
+              text-transform: uppercase;
+
+              &:first-child {
+                font-size: 10px;
+                padding: 24px 0 16px 21px;
+              }
+
+              &:last-child {
+                font-size: 20px;
+                padding: 0 0 30px 21px;
+              }
+            }
+          }
+          .cell-2 {
+            @include header-wh-pr-oh;
+            border-bottom: 1px solid #e1e2e4;
+
+            span {
+              font-family: 'Ubuntu', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #4c4c4c;
+              padding: 17px 0 23px 21px;
+              display: block;
+            }
+          }
+          .cell-3, .cell-4 {
+            @include header-wh-pr-oh;
+            border-bottom: 1px solid #e1e2e4;
+
+            p {
+              font-family: 'Ubuntu', sans-serif;
+              text-transform: uppercase;
+
+              &:first-child {
+                font-size: 14px;
+                font-weight: 400;
+                padding: 23px 0 19px 21px;
+              }
+
+              &:last-child {
+                font-size: 10px;
+                font-weight: 300;
+                color: #dddddd;
+                padding: 0 0 34px 21px;
+              }
+            }
+          }
+        }
+
+        .last-in-block {
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          color: #939598;
+          margin-top: 44px;
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  .services-we-provide {
+    @include header-wh-pr-oh;
+    text-align: center;
+    background: #f7f7f7;
+
+    .services-icon {
+        margin-top: 135px;
+    }
+
+    p.first-of-block {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: #a5a5a5;
+      margin-top: 43px;
+      margin-bottom: 38px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      user-select: none;
+    }
+    h1 {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 61px;
+      font-weight: 300;
+      color: #4c4c4c;
+      margin-bottom: 96px;
+      user-select: none;
+
+      span {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 61px;
+        font-weight: 300;
+        color: #1abc9c;
+      }
+    }
+    .services {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      width: 1146px;
+      margin: 0 auto 58px;
+
+      .services-blocks {
+        @include header-wh-pr-oh;
+        border: 1px solid #d4d4d4;
+        box-shadow: 0 0 8px #ddd;
+        background: #fff;
+        width: 352px;
+        height: 248px;
+        text-align: left;
+        margin: 14px;
+
+        &.center {
+          text-align: center;
+        }
+
+        h5 {
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 27px;
+          font-weight: 700;
+          color: #4c4c4c;
+          margin: 38px 0 16px 40px;
+
+          &.no-left-m {
+            margin-left: 0;
+          }
+        }
+
+        img {
+          display: block;
+          margin: 48px auto;
+        }
+
+        p {
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 16px;
+          font-weight: 300;
+          margin-left: 40px;
+          padding: 14px 94px 10px 17px;
+          width: 170px;
+          cursor: pointer;
+
+          &:hover {
+            background: #f2f2f2;
+          }
+        }
+      }
+    }
+
+  }
+
+  .what-our-features {
+    @include header-wh-pr-oh;
+    text-align: center;
+
+    .features-icon {
+        margin-top: 135px;
+    }
+
+    p.first-of-block {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: #a5a5a5;
+      margin-top: 43px;
+      margin-bottom: 38px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      user-select: none;
+    }
+    h1 {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 61px;
+      font-weight: 300;
+      color: #4c4c4c;
+      margin-bottom: 96px;
+      user-select: none;
+
+      span {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 61px;
+        font-weight: 300;
+        color: #1abc9c;
+      }
+    }
+    #menu-tabs {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+      margin-bottom: 110px;
+
+      li.active a {
+        background: #1abc9c;
+        color: #fff;
+      }
+
+        a {
+          border: 1px solid #fff;
+          border-radius: 5px;
+          box-shadow: 0 0 8px #ddd;
+          margin: 0 4px;
+          padding: 22px 41px;
+          width: 115px;
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          color: #777777;
+          transition: 1s;
+
+          &:hover {
+            background: #1abc9c;
+            color: #fff;
+          }
+        }
+    }
+    .tab-content {
+      display: block;
+      width: 1143px;
+      margin: 0 auto;
+
+      img {
+        display: block;
+        float: left;
+        margin-bottom: 146px;
+      }
+
+      .right-content {
+        display: block;
+        float: left;
+        margin-left: 125px;
+        width: 40%;
+        text-align: left;
+
+        h5 {
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 27px;
+          font-weight: 300;
+          color: #4c4c4c;
+          margin-top: 67px;
+          width: 83%;
+          margin-bottom: 28px;
+        }
+
+        span {
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 16px;
+          font-weight: 300;
+          color: #939598;
+          width: 99%;
+          display: block;
+          line-height: 1.7;
+        }
+      }
+    }
+  }
+
+  .our-works {
+    @include header-wh-pr-oh;
+    text-align: center;
+    width: 1350px;
+    margin: 0 auto;
+    background: #f8f9fb;
+
+    .works-icon {
+        margin-top: 135px;
+    }
+
+    p.first-of-block {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: #a5a5a5;
+      margin-top: 43px;
+      margin-bottom: 38px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      user-select: none;
+    }
+    h1 {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 61px;
+      font-weight: 300;
+      color: #4c4c4c;
+      margin-bottom: 96px;
+      user-select: none;
+
+      span {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 61px;
+        font-weight: 300;
+        color: #1abc9c;
+      }
+    }
+
+    #menu-tabs-2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+      margin-bottom: 110px;
+
+      li.active a {
+        background: #000;
+        color: #fff;
+      }
+
+        a {
+          box-shadow: 0 0 8px #ddd;
+          margin: 0 4px;
+          padding: 12px 23px;
+          width: 154px;
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          color: #fff;
+          background: #1abc9c;
+          transition: 1s;
+
+          &:hover {
+            background: #000;
+            color: #fff;
+          }
+        }
+    }
+    .tab-content {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  #hover-height {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    height: 528px;
+
+    li{
+      width:475px;
+      height:264px;
+      border: none;
+      transition: 2s;
+
+      .li-top {
+        display: none;
+      }
+      .li-bot {
+        display: none;
+      }
+
+
+      &.first-li {
+        background: #fdbd4f;
+        @include transform-2;
+        @include transform-1;
+      }
+
+      &.second-li {
+        background: #b8c496;
+        @include transform-2;
+        @include transform-1;
+      }
+
+      &.third-li {
+        background: #65bcd0;
+        @include transform-2;
+        @include transform-1;
+      }
+
+      &.fourth-li {
+        background: #d7f0ed;
+        @include transform-2;
+        @include transform-1;
+      }
+
+      &.fifth-li {
+        background: #e0eaf3;
+        @include transform-2;
+      }
+
+      &.sixth-li {
+        background: #d2c2b3;
+
+        @include transform-2;
+      }
+
+      &.seventh-li {
+        background: #e5e4e2;
+        @include transform-2;
+      }
+
+      &.eight-li {
+        background: #ffc301;
+        @include transform-2;
+      }
+
+    }
+  }
+
+  .our-team {
+    @include header-wh-pr-oh;
+    text-align: center;
+    margin-top: 105px;
+
+    p.first-of-block {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: #a5a5a5;
+      margin-top: 43px;
+      margin-bottom: 38px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      user-select: none;
+    }
+    h1 {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 61px;
+      font-weight: 300;
+      color: #4c4c4c;
+      margin-bottom: 96px;
+      user-select: none;
+
+      span {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 61px;
+        font-weight: 300;
+        color: #1abc9c;
+      }
+    }
+
+    .team-list {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 61px;
+
+      .team-person {
+        display: block;
+        text-align: center;
+        width: 360px;
+        height: 647px;
+        box-shadow: 0 0 8px 5px #ddd;
+        margin: 0 40px;
+        cursor: pointer;
+        transition: 1s;
+
+        &:hover {
+          transform: scale(1.1);
+          box-shadow: 0 0 8px 12px #ddd;
+        }
+
+        .like-photo {
+          display: block;
+          width: 258px;
+          height: 480px;
+          background: #f1f1f1;
+          margin: 10px auto 24px;
+        }
+
+        h5 {
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 27px;
+          font-weight: 400;
+          color: #4c4c4c;
+        }
+
+        p {
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 19px;
+          font-weight: 400;
+          color: #939598;
+          margin-top: 18px;
+          margin-bottom: 25px;
+        }
+
+        img {
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+
+  .new-features {
+     display: flex;
+     background: #f9f9f9;
+     padding-bottom: 80px;
+
+     .left-part {
+       display: block;
+       text-align: center;
+       width: 50%;
+
+       img {
+         display: block;
+         margin-top: 123px;
+         margin-left: 256px;
+       }
+     }
+     .right-part {
+       display: block;
+       width: 50%;
+
+       h4 {
+         font-family: 'Ubuntu', sans-serif;
+         font-size: 33px;
+         font-weight: 400;
+         color: #939598;
+
+         &:first-child {
+           font-weight: 700;
+           text-transform: uppercase;
+           color: #4c4c4c;
+           margin-top: 87px;
+           margin-bottom: 26px;
+         }
+
+         span {
+           color: #1abc9c;
+         }
+       }
+
+       p.right-part-top {
+         font-family: 'Ubuntu', sans-serif;
+         font-size: 15px;
+         font-weight: 300;
+         color: #c1b0b3;
+         margin-top: 29px;
+         margin-bottom: 66px;
+       }
+
+       .features-list {
+         display: flex;
+         margin-bottom: 87px;
+
+        .features-list-1 {
+          display: block;
+          width: 34%;
+          margin-top: 64px;
+
+          p {
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color: #8d7a7a;
+            margin-bottom: 15px;
+
+            img {
+              margin-right: 10px;
+            }
+          }
+        }
+       }
+       a {
+         font-family: 'Ubuntu', sans-serif;
+         font-size: 15px;
+         font-weight: 400;
+         color: #afb0b3;
+         background: #fff;
+         padding: 20px 42px;
+         margin-right: 10px;
+         transition: 1s;
+
+         &.get-it {
+           border: 2px solid;
+         }
+
+         &:hover {
+           background: #000;
+           color: #fff;
+         }
+       }
+     }
+   }
+
+  .consumer-opinion {
+     @include header-wh-pr-oh;
+     background: #141519;
+     text-align: center;
+
+     h5 {
+       font-family: 'Ubuntu', sans-serif;
+       font-size: 27px;
+       font-weight: 400;
+       color: #f9f9f9;
+       padding-top: 85px;
+       margin-bottom: 38px;
+     }
+     .consumer-opinion-content {
+       display: flex;
+       justify-content: center;
+       background: #141519;
+       padding-bottom: 91px;
+
+       .c-o-c-block {
+         display: block;
+         margin: 0 89px;
+
+         h3 {
+           font-family: 'Ubuntu', sans-serif;
+           font-size: 46px;
+           font-weight: 400;
+           color: #f9f9f9;
+           margin-top: 16px;
+         }
+
+         p {
+           font-family: 'Ubuntu', sans-serif;
+           font-size: 18px;
+           font-weight: 400;
+           color: #f9f9f9;
+           margin-top: 32px;
+         }
+       }
+     }
+   }
+
+  .subscribe {
+     @include header-wh-pr-oh;
+     background: #f1f1ef;
+
+
+     .subscribe-content {
+       text-align: left;
+       margin-left: 63%;
+       width: 25%;
+       padding-top: 86px;
+
+       h3 {
+         font-family: 'Ubuntu', sans-serif;
+         font-size: 46px;
+         font-weight: 300;
+         color: #4c4c4c;
+         margin-bottom: 27px;
+       }
+       form {
+         position: relative;
+
+         input {
+           font-family: 'Ubuntu', sans-serif;
+           font-size: 14px;
+           font-weight: 400;
+           color: #675e5e;
+           width: 24vw;
+           height: 13px;
+           padding: 14px 0 14px 13px;
+           border: none;
+           background: #fff;
+
+           &::placeholder {
+             color: #675e5e;
+           }
+         }
+
+         img {
+           position: absolute;
+           top: 9px;
+           right: 30px;
+           cursor: pointer;
+           transition: 1s;
+
+           &:hover {
+             filter: contrast(2);
+           }
+         }
+       }
+
+       p {
+         font-family: 'Ubuntu', sans-serif;
+         font-size: 16px;
+         font-weight: 300;
+         color: #939598;
+         line-height: 1.7;
+         margin-top: 48px;
+         padding-bottom: 96px;
+       }
+     }
+   }
+
+  .brought-infinite {
+    @include header-wh-pr-oh;
+    background: #fff;
+    padding-bottom: 80px;
+    text-align: center;
+
+    p {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #939598;
+      margin-top: 90px;
+      margin-bottom: 65px;
+      text-transform: uppercase;
+
+      span {
+        font-weight: 700;
+        color: #1abc9c;
+      }
+    }
+    img {
+      margin-bottom: 66px;
+    }
+
+    h3 {
+      text-transform: uppercase;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 47px;
+      font-weight: 300;
+      color: #4c4c4c;
+      margin-bottom: 35px;
+    }
+
+    .italic {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #939598;
+      font-style: italic;
+      margin-bottom: 86px;
+      text-transform: none;
+    }
+
+    a {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      color: #fdfdfd;
+      padding: 19px 43px;
+      background: #1abc9c;
+      cursor: pointer;
+      margin-bottom: 80px;
+      transition: 1s;
+
+      &:hover {
+        background: #000;
+      }
+    }
+  }
+
+  .bestdeal {
+    @include header-wh-pr-oh;
+    text-align: center;
+    padding-top: 105px;
+    background: #f8f9fb;
+
+    p.first-of-block {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: #a5a5a5;
+      margin-top: 43px;
+      margin-bottom: 38px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      user-select: none;
+    }
+    h1 {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 61px;
+      font-weight: 300;
+      color: #4c4c4c;
+      margin-bottom: 96px;
+      user-select: none;
+
+      span {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 61px;
+        font-weight: 300;
+        color: #1abc9c;
+      }
+    }
+
+    .bestdeal-list {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+
+      .bestdeal-part {
+        display: block;
+        text-align: center;
+        width: 360px;
+        height: 654px;
+        box-shadow: 0 0 8px 5px #ddd;
+        margin: 0 40px;
+        cursor: pointer;
+        transition: 1s;
+
+        &:hover {
+          transform: scale(1.05);
+          box-shadow: 0 0 8px 12px #ddd;
+          background: #1abc9c;
+        }
+
+        &:hover h5 {
+          color: #fff;
+          background: #1abc9c;
+        }
+
+        &:hover p {
+          color: #fff;
+        }
+
+        &:hover a {
+          color: #1abc9c;
+          background: #fff;
+        }
+
+        h5 {
+         font-family: 'Ubuntu';
+         font-size: 27px;
+         color: #4c4c4c;
+         text-align: center;
+         border: 4px double #e1e1e1;
+         padding: 30px;
+         border-radius: 50%;
+         width: 60px;
+         height: 45px;
+         margin: 0 auto;
+         background-color: #fbfbfb;
+         vertical-align: middle;
+         padding-top: 42px;
+         font-weight: 400;
+        }
+
+        .first-in-block {
+          margin: 25px 0;
+          font-weight: 400;
+          color: #4c4c4c;
+          font-size: 20px;
+        }
+
+        .grey {
+          color: #939598;
+          margin: 25px 0 39px;
+        }
+
+        .grey2 {
+          color: #939598;
+          margin: 50px 0 10px;
+        }
+
+        .grey3 {
+          color: #939598;
+          margin: 0;
+        }
+
+        p {
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          color: #4c4c4c;
+          margin-bottom: 23px;
+
+          span {
+            font-weight: 700;
+          }
+        }
+
+        .last-unnamed {
+          margin-bottom: 50px;
+        }
+
+        a {
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          color: #fff;
+          background: #1abc9c;
+          padding: 18px 42px;
+          transition: 1s;
+
+          &:hover {
+            background: #000;
+            color: #fff;
+          }
+        }
+
+      }
+    }
+
+    .last-of-block {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        color: #939598;
+        user-select: none;
+        margin-bottom: 105px;
+
+        span {
+          color: #1abc9c;
+          cursor: pointer;
+          transition: 1s;
+
+          &:hover {
+            color: #000;
+          }
+        }
+      }
+    }
+
+  .get-it-now {
+    @include header-wh-pr-oh;
+    text-align: center;
+
+    h2 {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 57px;
+      font-weight: 300;
+      color: #4c4c4c;
+      margin-top: 87px;
+      margin-bottom: 27px;
+    }
+
+    p {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #939598;
+      margin-bottom: 57px;
+
+      span {
+        color: #1abc9c;
+        cursor: pointer;
+        transition: 1s;
+
+        &:hover {
+          color: #000;
+        }
+      }
+    }
+
+    img {
+      margin: 0 8px 94px;
+      transition: 2s;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .comments-sliders-block {
+    background: #a5a5a5;
+    display: block;
+    position: relative;
+
+    .comments-slider {
+      display: block;
+      overflow: hidden;
+      margin: 0 auto;
+
+      .slick-dots {
+        top: 86%;
+        left: 0;
+
+      }
+
+      .slick-dots li {
+        margin: 0 15px;
+      }
+
+      .slick-dots li button:before {
+        opacity: 1;
+        color: #1abc9c;
+        font-size: 15px;
+      }
+
+      .slick-dots li.slick-active button:before {
+        opacity: 1;
+        color: #000;
+      }
+
+
+      .slick-slide img {
+        display: block;
+        margin: 103px auto 0;
+      }
+
+      .comments-slide-1, .comments-slide-2 {
+        margin: 0 60px;
+        text-align: center;
+
+        .stars-block {
+          display: flex;
+          justify-content: center;
+
+          img {
+            margin: 44px 2px;
+          }
+        }
+        p {
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          color: #fff;
+          line-height: 1.7;
+          width: 44%;
+          margin: 0 auto 43px;
+
+          &.sliders-bold {
+            font-weight: 700;
+            margin-bottom: 180px;
+
+            img {
+              display: initial;
+              margin: 0 5px 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .featured-in {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background: #f9f9f9;
+
+    img {
+      margin: 83px 27px 70px;
+      transition: 1s;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+
+
+      &:nth-child(1) {
+        padding-top: 4px;
+
+        &:hover {
+          transform: scale(1);
+          cursor: default;
+        }
+      }
+
+      &:nth-child(2) {
+        padding-top: 10px;
+      }
+
+      &:nth-child(4) {
+        padding-top: 6px;
+      }
+
+      &:nth-child(5) {
+        padding-top: 14px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1651px) and (max-width: 1919px) {
+  #main #hover-height li {
+    width: 24vw;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1650px) {
+  #main #hover-height li {
+    width: 24vw;
+  }
+  #main .new-features .left-part img {
+    margin-left: 100px;
+  }
+
+}
+@media (min-width: 1360px) and (max-width: 1439px) {
+  #main #hover-height li {
+    width: 340px;
+  }
+
+  #main .new-features .left-part img {
+    margin-left: 100px;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1359px) {
+  #main #hover-height li {
+    width: 33vw;
+  }
+
+  #main .new-features .left-part img {
+    margin-left: 70px;
+  }
+
+  #main #hover-height li.fourth-li:hover .li-top {
+    padding-top: 15px;
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  #main .what-we-do .about-works .simple-block-1 {
+    margin-bottom: 45px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  #main .our-contents .contents-block {
+    flex-wrap: wrap;
+    width: 768px;
+
+    .contents-slider {
+      margin: 0 auto;
+    }
+
+    .contents-table {
+      margin: 45px auto 0;
+    }
+  }
+
+  #main .services-we-provide .services {
+    width: 768px;
+  }
+
+  #main .what-our-features .tab-content {
+    width: 768px;
+
+    img {
+      float: none;
+      margin: 0 auto;
+    }
+
+    .right-content {
+      margin: 0 auto;
+      float: none;
+      width: 70%;
+      margin-bottom: 45px;
+      text-align: justify;
+    }
+  }
+
+  #main .our-works {
+    width: 768px;
+  }
+
+  #main #hover-height li {
+    width: 384px;
+  }
+
+  #main #hover-height li.third-li:hover .li-top {
+    padding-top: 15px;
+  }
+
+  #main #hover-height li.fourth-li:hover .li-top {
+    padding-top: 15px;
+  }
+
+  #main .our-team .team-list {
+    flex-wrap: wrap;
+
+    .team-person {
+      margin-bottom: 55px;
+    }
+  }
+
+  #main .new-features{
+    .left-part {
+      display: none;
+    }
+
+    .right-part {
+      margin-left: 20%;
+      width: 100%;
+    }
+  }
+
+  #main .consumer-opinion .consumer-opinion-content {
+    flex-wrap: wrap;
+
+    .c-o-c-block {
+      margin-bottom: 45px;
+    }
+  }
+
+  #main .subscribe .subscribe-content {
+    margin-left: 58%;
+    width: 28%;
+  }
+
+  #main .bestdeal .bestdeal-list {
+    flex-wrap: wrap;
+
+    .bestdeal-part {
+      margin-bottom: 55px;
+    }
+  }
+
+  #main .get-it-now img {
+    margin: 0 2px 94px;
+  }
+
+  #main .comments-sliders-block .comments-slider .comments-slide-1 p, #main .comments-sliders-block .comments-slider .comments-slide-2 p {
+    width: 75%;
+  }
+
+  #main .featured-in {
+    flex-wrap: wrap;
+
+  }
+}
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+  #main .what-we-do .about-works .simple-block-1 {
+    margin-bottom: 45px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  #main .our-contents .contents-block {
+    flex-wrap: wrap;
+    width: 480px;
+
+    .contents-slider {
+      margin: 0 auto;
+    }
+
+    .contents-table {
+      margin: 45px auto 0;
+    }
+  }
+  #main .our-contents .contents-block .contents-slider {
+    width: 480px;
+  }
+
+  #main .services-we-provide .services {
+    width: 480px;
+  }
+
+  #main .what-our-features .tab-content {
+    width: 480px;
+
+    img {
+      float: none;
+      margin: 0 auto;
+    }
+
+    .right-content {
+      margin: 0 auto;
+      float: none;
+      width: 70%;
+      margin-bottom: 45px;
+      text-align: justify;
+    }
+  }
+
+  #main .what-our-features #menu-tabs a {
+    padding: 22px 34px;
+  }
+
+  #main .our-works #menu-tabs-2 {
+    flex-direction: column;
+
+    li {
+      height: 50px;
+    }
+  }
+
+  #main #hover-height {
+    height: 607px;
+  }
+
+
+  #main .our-works {
+    width: 480px;
+  }
+
+  #main #hover-height li {
+    width: 384px;
+    height: 304px;
+  }
+
+  #main #hover-height li.first-li:hover .li-top {
+    margin-bottom: 159px;
+  }
+
+  #main #hover-height li.second-li:hover .li-top {
+    padding-top: 15px;
+    margin-bottom: 152px;
+  }
+
+
+  #main .our-team .team-list {
+    flex-wrap: wrap;
+
+    .team-person {
+      margin-bottom: 55px;
+    }
+  }
+
+  #main .new-features{
+    .left-part {
+      display: none;
+    }
+
+    .right-part {
+      margin-left: 2%;
+      width: 100%;
+    }
+  }
+
+  #main .new-features .right-part .features-list .features-list-1 {
+    width: auto;
+    margin-right: 20px;
+  }
+
+  #main .consumer-opinion .consumer-opinion-content {
+    flex-wrap: wrap;
+
+    .c-o-c-block {
+      margin-bottom: 45px;
+    }
+  }
+
+  #main .subscribe .subscribe-content {
+    margin-left: 30%;
+    width: 58%;
+
+    input {
+      width: 55vw!important;
+    }
+  }
+
+  #main .bestdeal .bestdeal-list {
+    flex-wrap: wrap;
+
+    .bestdeal-part {
+      margin-bottom: 55px;
+    }
+  }
+
+  #main .get-it-now img {
+    margin: 0 2px 94px;
+  }
+
+  #main .comments-sliders-block .comments-slider .comments-slide-1 p, #main .comments-sliders-block .comments-slider .comments-slide-2 p {
+    width: 100%;
+  }
+
+  #main .comments-sliders-block .comments-slider .comments-slide-1, #main .comments-sliders-block .comments-slider .comments-slide-2 {
+    margin: 0 50px;
+  }
+
+  #main .featured-in img {
+    margin: 0 200px 50px;
+
+    &:first-child {
+      margin-top: 50px
+    }
+
+  }
+
+  #main .featured-in {
+    flex-wrap: wrap;
+
+    img:nth-child(4) {
+      margin-top: 0;
+    }
+
+    img:nth-child(5) {
+      margin-top: 0;
+    }
+  }
+}
+
+@media (min-width: 414px) and (max-width: 479px) {
+  #main .what-we-do .about-works .simple-block-1 {
+    margin-bottom: 45px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  #main .our-contents .contents-block {
+    flex-wrap: wrap;
+    width: 414px;
+
+    .contents-slider {
+      margin: 0 auto;
+    }
+
+    .contents-table {
+      margin: 45px auto 0;
+    }
+  }
+  #main .our-contents .contents-block .contents-slider {
+    width: 414px;
+  }
+
+  #main .services-we-provide .services {
+    width: 414px;
+  }
+
+  #main .what-our-features .tab-content {
+    width: 414px;
+
+    img {
+      float: none;
+      margin: 0 auto;
+    }
+
+    .right-content {
+      margin: 0 auto;
+      float: none;
+      width: 70%;
+      margin-bottom: 45px;
+      text-align: justify;
+    }
+  }
+
+  #main .what-our-features #menu-tabs a {
+    padding: 22px 23px;
+  }
+
+  #main .our-works #menu-tabs-2 {
+    flex-direction: column;
+
+    li {
+      height: 50px;
+    }
+  }
+
+  #hover-height {
+    height: 528px!important;
+  }
+
+
+  #main .our-works {
+    width: 414px;
+  }
+
+  #main #hover-height li {
+    width: 384px;
+  }
+
+
+  #main #hover-height li.second-li:hover .li-top {
+    padding-top: 15px;
+    margin-bottom: 119px;
+  }
+
+
+  #main .our-team .team-list {
+    flex-wrap: wrap;
+
+    .team-person {
+      margin-bottom: 55px;
+    }
+  }
+
+  #main .new-features{
+    .left-part {
+      display: none;
+    }
+
+    .right-part {
+      margin-left: 2%;
+      width: 100%;
+    }
+  }
+
+  #main .new-features .right-part .features-list .features-list-1 {
+    width: auto;
+    margin-right: 20px;
+  }
+
+  #main .consumer-opinion .consumer-opinion-content {
+    flex-wrap: wrap;
+
+    .c-o-c-block {
+      margin-bottom: 45px;
+    }
+  }
+
+  #main .subscribe .subscribe-content {
+    margin-left: 30%;
+    width: 58%;
+
+    input {
+      width: 55vw!important;
+    }
+  }
+
+  #main .bestdeal .bestdeal-list {
+    flex-wrap: wrap;
+
+    .bestdeal-part {
+      margin-bottom: 55px;
+    }
+  }
+
+  #main .get-it-now img {
+    margin: 0 2px 94px;
+  }
+
+  #main .comments-sliders-block .comments-slider .comments-slide-1 p, #main .comments-sliders-block .comments-slider .comments-slide-2 p {
+    width: 100%;
+  }
+
+  #main .comments-sliders-block .comments-slider .comments-slide-1, #main .comments-sliders-block .comments-slider .comments-slide-2 {
+    margin: 0 50px;
+  }
+
+  #main .featured-in img {
+    margin: 0 50px 50px;
+
+    &:first-child {
+      margin-top: 50px;
+    }
+
+  }
+
+  #main .featured-in {
+    flex-wrap: wrap;
+
+    img:nth-child(4) {
+      margin-top: 0;
+    }
+
+    img:nth-child(5) {
+      margin-top: 0;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 413px) {
+  #main .what-we-do .about-works .simple-block-1 {
+    margin-bottom: 45px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  #main .our-contents .contents-block {
+    flex-wrap: wrap;
+    width: 320px;
+
+    .contents-slider {
+      margin: 0 auto;
+    }
+
+    .contents-table {
+      margin: 45px auto 0;
+    }
+  }
+
+  #main .our-contents .contents-block .contents-table .table-like{
+    width: 308px;
+  }
+
+  #main .our-contents .contents-block .contents-table .last-in-block {
+      margin-left: 10px;
+  }
+
+  #main .our-contents .contents-block .contents-slider {
+    width: 320px;
+  }
+
+  #main .services-we-provide .services {
+    width: 320px;
+  }
+
+  #main .what-our-features .tab-content {
+    width: 320px;
+
+    img {
+      float: none;
+      margin: 0 auto;
+    }
+
+    .right-content {
+      margin: 0 auto;
+      float: none;
+      width: 70%;
+      margin-bottom: 45px;
+      text-align: justify;
+    }
+  }
+
+  #main .what-our-features #menu-tabs a {
+    padding: 22px 9px;
+  }
+
+  #main .our-works #menu-tabs-2 {
+    flex-direction: column;
+
+    li {
+      height: 50px;
+    }
+  }
+
+  #main .what-our-features .tab-content .right-content h5 {
+    text-align: center;
+    width: 100%;
+  }
+
+  #hover-height {
+    height: 528px!important;
+  }
+
+
+  #main .our-works {
+    width: 320px;
+  }
+
+  #main #hover-height li {
+    width: 310px;
+  }
+
+
+  #main #hover-height li.second-li:hover .li-top {
+    padding-top: 15px;
+    margin-bottom: 119px;
+  }
+
+  #main #hover-height li.second-li:hover .li-bot p {
+    width: 50%;
+  }
+
+  #main #hover-height li.first-li:hover .li-bot p {
+    width: 50%;
+  }
+
+  #main .our-team .team-list {
+    flex-wrap: wrap;
+
+    .team-person {
+      margin-bottom: 55px;
+      height: 475px;
+
+      .like-photo {
+        width: 190px;
+        height: 300px;
+      }
+    }
+  }
+
+  #main .new-features{
+    .left-part {
+      display: none;
+    }
+
+    .right-part {
+      margin-left: 2%;
+      width: 100%;
+    }
+  }
+
+  #main .new-features .right-part a {
+    margin: 0 auto;
+    width: 24%;
+    display: block;
+
+    &.get-it {
+      margin-bottom: 30px;
+      width: 36%;
+    }
+  }
+  #main .new-features .right-part .features-list .features-list-1 {
+    width: auto;
+    margin-right: 20px;
+  }
+
+  #main .consumer-opinion .consumer-opinion-content {
+    flex-wrap: wrap;
+
+    .c-o-c-block {
+      margin-bottom: 45px;
+    }
+  }
+
+  #main .subscribe .subscribe-content {
+    margin-left: 17%;
+    width: 74%;
+
+    input {
+      width: 64vw!important;
+    }
+  }
+  #main .brought-infinite .italic {
+      line-height: 2;
+  }
+
+  #main .bestdeal .bestdeal-list {
+    flex-wrap: wrap;
+
+    .bestdeal-part {
+      margin-bottom: 55px;
+    }
+  }
+
+  #main .get-it-now img {
+    margin: 0 2px 94px;
+  }
+
+  #main .comments-sliders-block .comments-slider .comments-slide-1 p, #main .comments-sliders-block .comments-slider .comments-slide-2 p {
+    width: 100%;
+  }
+
+  #main .comments-sliders-block .comments-slider .comments-slide-1, #main .comments-sliders-block .comments-slider .comments-slide-2 {
+    margin: 0 50px;
+  }
+
+
+  #main .featured-in img {
+    margin: 0 50px 50px;
+
+    &:first-child {
+      margin-top: 50px;
+    }
+
+  }
+
+  #main .featured-in {
+    flex-wrap: wrap;
+
+    img:nth-child(4) {
+      margin-top: 0;
+    }
+
+    img:nth-child(5) {
+      margin-top: 0;
+    }
+  }
+}

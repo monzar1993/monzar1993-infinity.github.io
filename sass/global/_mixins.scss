@@ -1,0 +1,94 @@
+@mixin header-wh-pr-oh {
+	width: 100%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+@mixin transform-1 {
+	&:hover {
+	transform: scaleY(1.6);
+
+	.li-top {
+		padding-top: 65px;
+		}
+	}
+}
+
+
+
+@mixin transform-2 {
+	&:hover {
+	transform: scaleY(1.6);
+
+	.li-top {
+		padding-top: 15px;
+		display: flex;
+		margin-bottom: 119px;
+
+		span {
+			font-family: 'Ubuntu', sans-serif;
+			font-size: 15px;
+			font-weight: 400;
+			color: #5ebd85;
+			background: #f2ede8;
+			padding: 4px 4px;
+			border-radius: 5px;
+			margin-right: 6px;
+			display: block;
+			transform: scaleY(0.7);
+			cursor: pointer;
+
+			&:hover {
+				background: #5ebd85;
+				color: #f2ede8;
+			}
+
+			&:first-child {
+				margin-left: 40px;
+			}
+		}
+	}
+
+	.li-bot {
+		background: #252830;
+		height: 57px;
+		display: block;
+
+		p {
+			font-family: 'Ubuntu', sans-serif;
+			font-size: 17px;
+			font-weight: 400;
+			color: #fff;
+			transform: scaleY(0.7);
+			width: 38%;
+			line-height: 1.7;
+			margin-left: 16px;
+
+			.bold-span {
+				font-weight: 700;
+			}
+		}
+	}
+	}
+}
+//
+// @mixin menu-li {
+// 	cursor: pointer;
+// 	font-family: 'brutal_typelight';
+// 	font-size: 18px;
+// 	margin-top: 158px;
+//
+// 	img {
+// 		display: block;
+// 		padding-bottom: 22px;
+// 	}
+// }
+//
+// @mixin flex-price-part {
+// 	display: flex;
+// 	position: relative;
+// 	background-repeat: no-repeat;
+// 	cursor: pointer;
+// 	transition: 0.5s;
+// }
