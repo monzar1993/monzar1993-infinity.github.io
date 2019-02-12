@@ -2539,7 +2539,7 @@ input:focus::-webkit-input-placeholder {
       border: 1px solid #fff;
       height: 15px;
       margin-left: 196px;
-      margin-top: 10vh;
+      margin-top: 60px;
       -webkit-transition: 2s;
       -o-transition: 2s;
       transition: 2s; }
